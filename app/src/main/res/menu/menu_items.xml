@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group  android:enabled="true">
+
+    <item android:id="@+id/ortho" android:title="Ortho"  android:enabled="true"/>
+    <item android:id="@+id/gyno" android:title="Gyno"/>
+    <item android:id="@+id/derma" android:title="Derma"/>
+    <item android:id="@+id/gp" android:title="Gp"/>
+    </group>
+
+</menu>

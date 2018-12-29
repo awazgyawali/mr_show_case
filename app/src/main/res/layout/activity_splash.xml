@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70A875"
+        android:src="@drawable/cover" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ortho"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortho" />
+
+        <Button
+            android:id="@+id/gyno"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+
+            android:layout_height="wrap_content"
+            android:text="Gyno" />
+
+        <Button
+            android:id="@+id/derma"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+
+            android:layout_height="wrap_content"
+            android:text="Derma" />
+
+        <Button
+            android:id="@+id/gp"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+
+            android:layout_height="wrap_content"
+            android:text="GP" />
+    </LinearLayout>
+
+</RelativeLayout>
